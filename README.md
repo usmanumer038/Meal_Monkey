@@ -1,2 +1,16 @@
-# Meal_Monkey
-A Flutter food-delivery experience with onboarding, authentication, browsing meals, categories, offers, item details with pricing, cart/checkout, profile management (including avatar upload), notifications, orders, and address picker.
+# food_delivery
+
+A new Flutter project.
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
