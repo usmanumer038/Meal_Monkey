@@ -1,5 +1,10 @@
-# from repo root
-git update-index --chmod=+x vercel-build.sh
-git add vercel-build.sh
-git commit -m "Make vercel-build.sh executable"
-git push origin main
+@"
+#!/usr/bin/env bash
+set -e
+git clone https://github.com/flutter/flutter.git --depth 1
+export PATH=\"$PATH:$(pwd)/flutter/bin\"
+
+flutter config --enable-web
+flutter pub get
+flutter build web --release --no-wasm-dry-run
+"@ | Set-Content vercel-build.sh -NoNewline -Encoding UTF8
