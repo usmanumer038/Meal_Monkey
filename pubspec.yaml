@@ -50,6 +50,7 @@ dependencies:
   onesignal_flutter: ^5.0.4
   flutter_map: ^6.1.0
   latlong2: ^0.9.0
+  email_validator: ^2.1.17
 
 dev_dependencies:
   flutter_test:
